@@ -1,0 +1,65 @@
+body {
+    width: 1080px; /* Điều chỉnh kích thước phần tử nếu cần */
+    height: 1920px; /* Điều chỉnh kích thước phần tử nếu cần */
+    background-image: url("/Source/img/background.png");
+    background-size: cover; /* Hiển thị ảnh sao cho phủ toàn bộ kích thước của phần tử */
+    background-position: center; /* Canh chỉnh ảnh vào giữa phần tử */
+    background-repeat: no-repeat
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(5px); /* Hiá»‡u á»©ng má» ná»n */
+    pointer-events: none; /* Äáº£m báº£o cÃ¡c sá»± kiá»‡n khÃ´ng Ä‘Æ°á»£c chuyá»ƒn tiáº¿p tá»« overlay Ä‘áº¿n pháº§n tá»­ bÃªn dÆ°á»›i */
+    z-index: -1; /* Äáº©y overlay xuá»‘ng phÃ­a sau header */
+    opacity: 1; /* áº¨n overlay ban Ä‘áº§u */
+}
+
+.logo_header {
+    width: 50.5px;
+    height: 50.5px;
+}
+
+.button_welcome {
+    position: absolute;
+    right: 0;
+    margin-right:10px;
+    padding: 2px;
+}
+
+.welcome_button {
+    color: #ffff;
+    font-size: 15px;
+    width: 75.5px;
+    height: 46.5px;
+    border: 0px;
+    border-radius: 30px
+}
+
+.logo_welcome {
+    display: flex;
+    align-items: center; /* Canh giữa theo chiều dọc */
+    margin-left: 10px;
+}
+
+.logo_word {
+    color: #4788b2;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+#login_welcome {
+    background-color: #8954fc;
+}
+
+#signup_welcome {
+    background-color: #0ab76f;
+}
+
+
